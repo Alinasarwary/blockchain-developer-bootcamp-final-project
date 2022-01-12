@@ -20,5 +20,3 @@ mongoose.connect("mongodb://localhost:27017/final-project")
         })
     })
     .catch(err=>{console.log(err);})
-
-    
