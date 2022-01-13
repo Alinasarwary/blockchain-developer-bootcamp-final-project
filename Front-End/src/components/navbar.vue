@@ -16,10 +16,10 @@
         <a href="/all"><h6 style="margin-top: 10px; color: #ffff;"> Citizens </h6></a>
       </div>
 
-       <!-- <div class="about" >
+       <div class="about" >
         <i class="lni-information size-md " :class="'lni-tada-effect'" id="about" @click="showAbout = !showAbout"></i>
         <a href="/about" class="clicked"><h6 style="margin-top: 10px; color: #ffff; margin-left:4px;"> About </h6></a>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
