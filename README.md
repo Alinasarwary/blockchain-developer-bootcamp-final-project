@@ -21,25 +21,26 @@ Contract Workflow
 - Mongodb database
 
 Contract
-- Clone code git clone `https://github.com/Alinasarwary/blockchain-developer-bootcamp-final-project.git`
-- Run npm install in root to install Truffle build and smart contract dependencies
-- Run local testnet in port 7545 with an Ethereum client, e.g. Ganache
-- truffle migrate --network development 
-- Run tests truffle test
+- Clone code `git clone https://github.com/Alinasarwary/blockchain-developer-bootcamp-final-project.git`
+- Run `npm install` in root to install Truffle build and smart contract dependencies
+- Run local testnet in port `7545` with an Ethereum client, e.g. Ganache
+- `truffle migrate --network development`
+- Run tests `truffle test`
 
 Front
-- cd Front-End
-- npm install
-- npm run serve
-- Open http://localhost:8080
+- `cd Front-End`
+- `npm install`
+- `npm run serve`
+- Open `http://localhost:8080`
 
 ## Webapp URL
 
 ## Video Tour
 
+
 ## DIRECTORY STRUCTURE
 
-bash
+```bash
 .
 ├── build
 │   └── contracts
@@ -72,3 +73,4 @@ bash
 │     ├── main.js
 │     ├── package-lock.jso
 │     ├── package.json
+```
