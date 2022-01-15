@@ -3,22 +3,30 @@
     <div class="colum">
         <div class="home " >
           <i class="lni-home size-md" :class=" 'lni-tada-effect'" id="home" @click="showHome = !showHome"></i>
-          <a href="/"><h6 style="margin-top: 12px; color: #ffff;">  Home </h6></a>
+          <!-- <a href="/"> -->
+          <router-link to="/"><h6 style="margin-top: 12px; color: #ffff;">  Home </h6></router-link>
+          <!-- </a> -->
         </div>
 
       <div class="register">
         <i class="lni-check-mark-circle size-md " :class="'lni-tada-effect'" id="check" @click="showCheck = !showCheck"></i>
-        <a href="/add"><h6 style="margin-top: 10px; color: #ffff; margin-left:4px;"> Registration </h6></a>
+        <!-- <a href="/add"> -->
+        <router-link to="/add"><h6 style="margin-top: 10px; color: #ffff; margin-left:4px;"> Registration </h6></router-link>
+        <!-- </a> -->
       </div>
 
       <div class="user" >
         <i class="lni-user size-md " :class="'lni-tada-effect'"  id="user" @click="showUser = !showUser"></i>
-        <a href="/all"><h6 style="margin-top: 10px; color: #ffff;"> Citizens </h6></a>
+        <!-- <a href="/all"> -->
+        <router-link to="/all"><h6 style="margin-top: 10px; color: #ffff;"> Citizens </h6></router-link>
+        <!-- </a> -->
       </div>
 
        <div class="about" >
         <i class="lni-information size-md " :class="'lni-tada-effect'" id="about" @click="showAbout = !showAbout"></i>
-        <a href="/about" class="clicked"><h6 style="margin-top: 10px; color: #ffff; margin-left:4px;"> About </h6></a>
+        <!-- <a href="/about" class="clicked"> -->
+        <router-link to="/about"><h6 style="margin-top: 10px; color: #ffff; margin-left:4px;"> About </h6></router-link>
+        <!-- </a> -->
       </div>
     </div>
   </div>
