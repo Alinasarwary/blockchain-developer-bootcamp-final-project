@@ -1,5 +1,5 @@
 import Web3 from "web3";
-import CitizensArtifact from "../../Back-End/build/contracts/Citizen.json"
+import CitizensArtifact from "../build/contracts/Citizen.json"
 
 const App = {
   web3: null,
