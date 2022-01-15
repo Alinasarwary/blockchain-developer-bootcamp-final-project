@@ -39,19 +39,6 @@ contract Citizen{
         Identity memory newCitizen = Identity(citizenId, FirstName, LastName, Country, Province, age, gender);
         citizens[citizenId] = newCitizen;
     }
-
-    ///@notice update all feild that need to change
-    function updateCitizen(uint256 citizenId, string memory FirstName, string memory LastName, string memory Country, string memory Province, uint256 age, string memory gender) public{
-        Identity memory i = citizens[citizenId];
-        i.citizenId = citizenId;
-        i.FirstName = FirstName;
-        i.LastName = LastName;
-        i.Country = Country;
-        i.Province = Province;
-        i.age = age;
-        i.gender = gender;
-
-    }
     
     //readCitizen() return information about the person who is registered
     function readCitizen(uint256 citizenId) public view returns( string memory FirstName, string memory LastName, string memory Country, string memory Province, uint256 age, string memory gender){
