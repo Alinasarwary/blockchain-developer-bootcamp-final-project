@@ -34,13 +34,13 @@ Front
 - `cd Front-End`
 - `npm install`
 - `npm run serve`
-- Open `http://localhost:8080`
+- Open `http://localhost:8080` 
 
 ## Webapp URL
 https://alinasarwary.github.io/blockchain-developer-bootcamp-final-project/
 
 ## Video Tour
-Video tour : https://www.loom.com/share/97825433349b49198e92d40788ebb489
+Video tour : https://www.loom.com/share/9d0c59c0063543fbbea081119e138496
 
 ## DIRECTORY STRUCTURE
 
