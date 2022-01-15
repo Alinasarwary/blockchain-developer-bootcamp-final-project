@@ -41,8 +41,15 @@ const App = {
 
   readCitizen: async function() {
     const { readCitizen } = this.meta.methods;
-    let current =  await readCitizen(id).call();
-     return current;
+    const citizen = [];
+    (async function() {
+      for (let id = 1; id < 5; id++) {
+        let current = await readCitizen(id).call();
+        citizen.push(current);
+      }
+    })();
+      console.log('citizen', citizen);
+      return citizen;
   },
 
   getCitizen: async function(id){
