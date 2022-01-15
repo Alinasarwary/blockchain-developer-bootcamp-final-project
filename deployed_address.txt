@@ -1,5 +1,0 @@
-
-Address: 
-Network: 0x6eD55f57E6F0D7bc15DDD9Bf8c3946fC479fc2f9 
-Local:   http://localhost:8081/ 
-Network: http://172.28.169.74:8081/
