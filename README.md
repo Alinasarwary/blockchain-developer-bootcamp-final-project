@@ -40,7 +40,7 @@ Front
 https://alinasarwary.github.io/blockchain-developer-bootcamp-final-project/
 
 ## Video Tour
-Video tour : https://www.loom.com/share/c45f0054da5b461bbf71103773b2a3ca
+Video tour : https://www.loom.com/share/9d0c59c0063543fbbea081119e138496
 
 ## DIRECTORY STRUCTURE
 
